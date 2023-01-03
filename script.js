@@ -48,7 +48,7 @@ setInterval(()=> {
     if(alarmTime == `${h}:${m} ${ampm}`){
         ring.play();
         ring.loop = true;
-        
+        setAlarmBtn.innerText = 'STOP'
 
     }
 }, 1000);
